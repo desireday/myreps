@@ -1,0 +1,6 @@
+左侧文件： C:\Users\lishuiqing\Desktop\ADB_LOG\3rd\MSM8909.LA.1.1.c7-011337106-STD.PROD-modem\rpm_proc\core\systemdrivers\pmic\config\msm8909\pm8909\pm_config_target.c
+右侧文件： C:\Users\lishuiqing\Desktop\pm_config_target.c
+58c58
+<     {5, 150, 0, PM_ACCESS_ALLOWED, PM_NONE,      PM_NPA_SW_MODE_LDO__IPEAK, PM_NPA_BYPASS_DISALLOWED, PM_DROOP_DETECT_DIS, 1800, 1800, 0, PM_SETTLING_ERR_EN, PM_SETTLING_EN, 0}, // LDO6   LDO LV_P300
+---
+>     {5, 150, 0, PM_ACCESS_ALLOWED, PM_ALWAYS_ON,      PM_NPA_SW_MODE_LDO__NPM, PM_NPA_BYPASS_DISALLOWED, PM_DROOP_DETECT_DIS, 1800, 1800, 0, PM_SETTLING_ERR_EN, PM_SETTLING_EN, 0}, // LDO6   LDO LV_P300

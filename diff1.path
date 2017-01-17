@@ -1,0 +1,9 @@
+diff --git a/init.c b/init.c
+index e79c5e8..de3e069 100644
+--- a/init.c
++++ b/init.c
+@@ -1 +1,4 @@
++
++
++git diff patch test
+ initial

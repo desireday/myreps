@@ -1,0 +1,15 @@
+diff --git a/kernel/arch/arm/boot/dts/msm8909_w8/msm8909-qrd-skue-sdtm800.dtsi b/kernel/arch/arm/boot/dts/msm8909_w8/msm8909-qrd-skue-sdtm800.dtsi
+index 73687f3..df3cc8c 100755
+--- a/kernel/arch/arm/boot/dts/msm8909_w8/msm8909-qrd-skue-sdtm800.dtsi
++++ b/kernel/arch/arm/boot/dts/msm8909_w8/msm8909-qrd-skue-sdtm800.dtsi
+@@ -189,6 +189,10 @@
+ 	//sdtm,rs232_sel = <&msm_gpio 23 0>;
+ };
+ 
++&pm8909_l6 {
++        regulator-always-on;
++};
++
+ / {
+ 	aliases {
+ 		serial1 = &blsp1_uart2;// should be no serial1, 0 for console
